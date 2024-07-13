@@ -67,6 +67,7 @@ export const DATA = {
       title: "Instructor",
       logoUrl: "https://www.cdicollege.ca/files/templates/main2020/images/CDI%20Logo.svg",
       start: "Dec 2023",
+      end: "Present",
       description: 
         `Conducting comprehensive lectures and hands-on sessions in various computer science subjects, including Pythonprogramming, web programming, UX design, Software Development Projects, and CMS.\nUpdated curriculum to align with industry trends, integrating interactive methods: project-based assessments andcoding challenges. Introduced online quizzes for paced learning and team-based competitions.`,
     },

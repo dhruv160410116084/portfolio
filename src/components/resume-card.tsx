@@ -106,8 +106,8 @@ export const ResumeCard = ({
                 <ul>
                   
                  { description.split('\n').map((paragraph:any, index:any) => (
-                  <li style={{display:'list-item', 'listStyle': 'disc'}}>
-                <p key={index}>{paragraph}</p>
+                  <li key={index} style={{display:'list-item', 'listStyle': 'disc'}}>
+                <p >{paragraph}</p>
                 </li>
 
               ))}

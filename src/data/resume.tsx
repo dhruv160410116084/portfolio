@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Software Engineer/ Educator",
   summary:
-    "A passionate Software Engineer.",
+    "I am a dedicated MERN stack developer with robust DevOps skills and a keen interest in AWS cloud services. In addition to my development expertise, I am a computer science teacher, committed to educating and inspiring the next generation of technologists. I am passionate about working with the latest technologies, ensuring system security, and optimizing performance. My goal is to leverage my skills and knowledge to develop innovative solutions that drive efficiency and enhance user experience.",
   avatarUrl: "/me.png",
   skills: [
     "React",
@@ -126,6 +126,53 @@ export const DATA = {
       end: "2020",
     }
   ],
-  projects: [],
+  projects: [
+    {
+      title: "CharCha",
+      href: "https://charcha.dhruvpatel.work",
+      // dates: "Jan 2024 - Feb 2024",
+      active: true,
+      description:
+        "CharCha is a Peer-to-Peer real-time video calling application that uses WebRTC, And with the help of data channel it supports realtime messages and file transfer.",
+      technologies: [
+        "React",
+        "Vite",
+        "WebRTC",
+        "WebSocket",
+        "Node",
+        "PostgreSql"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://charcha.dhruvpatel.work",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+       image: "/charcha.png",
+    },
+    {
+      title: "sshm",
+      href: "https://github.com/dhruv160410116084/sshm/tree/master",
+      // dates: "Jan 2024 - Feb 2024",
+      active: true,
+      description:
+        "CharCha is a Peer-to-Peer real-time video calling application that uses WebRTC, And with the help of data channel it supports realtime messages and file transfer.",
+      technologies: [
+        "Go",
+        "cobra-cli",
+        "ssh",
+        "brew"
+      ],
+      links: [
+        {
+          type: "Cli",
+          href: "https://github.com/dhruv160410116084/sshm/tree/master",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+       image: "/sshm.gif",
+    },
+  ],
   hackathons: [],
 } as const;

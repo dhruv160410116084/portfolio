@@ -157,7 +157,7 @@ export const DATA = {
       // dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "CharCha is a Peer-to-Peer real-time video calling application that uses WebRTC, And with the help of data channel it supports realtime messages and file transfer.",
+        "A ssh manager that can store multiple connection strings with environments and shortcuts. You can list all your connections, edit it and remove it. Now connect to your server easily.",
       technologies: [
         "Go",
         "cobra-cli",

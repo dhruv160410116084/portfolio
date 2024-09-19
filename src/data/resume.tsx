@@ -110,7 +110,7 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Lambton College",
+      school: "Lambton College: 3.8 GPA",
       href: "https://www.lambtoncollege.ca/",
       degree: "DevOps for Cloud Computing",
       logoUrl: "/lambton.webp",
@@ -118,7 +118,7 @@ export const DATA = {
       end: "2024",
     },
     {
-      school: "Gujrat Technological University",
+      school: "Gujrat Technological University: 8.5 CGPA",
       href: "https://www.gtu.ac.in/",
       degree: "Bachelor's Degree of Computer Science (BCS)",
       logoUrl: "/gtu.png",
